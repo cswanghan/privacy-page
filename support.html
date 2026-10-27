@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PoseMaster · 支持</title>
+<style>
+  :root {
+    --accent: #3B82F6;
+    --bg: #0b1018; --card: #141a24; --line: #232a36;
+    --text: #F2F2F4; --sub: #8A8A8E; --muted: #6B6B70;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.7 -apple-system, "Helvetica Neue", "PingFang SC", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 24px; margin-bottom: 8px; }
+  .brand { color: var(--accent); font-weight: 800; letter-spacing: .04em; font-size: 15px; }
+  h1 { font-size: 28px; margin: 10px 0 6px; letter-spacing: .01em; }
+  .meta { color: var(--muted); font-size: 13px; }
+  h2 {
+    font-size: 19px; margin: 40px 0 12px; padding-top: 4px;
+    display: flex; align-items: baseline; gap: 10px;
+  }
+  h2::before {
+    content: ""; width: 4px; height: 18px; border-radius: 2px;
+    background: var(--accent); display: inline-block; flex: none;
+    transform: translateY(2px);
+  }
+  p, li { color: var(--text); }
+  .lead { color: var(--sub); }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  strong { color: #fff; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; padding: 18px 20px; margin: 16px 0;
+  }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">PoseMaster · 三维体态评估</div>
+    <h1>支持</h1>
+    <div class="meta">App Store 支持页 · iPhone / iPad</div>
+  </header>
+
+  <div class="card">
+    <p style="margin:0">遇到问题、功能建议或数据相关请求，请发邮件：
+      <a href="mailto:cswanghan@gmail.com">cswanghan@gmail.com</a>
+      （通常 48 小时内回复）。</p>
+  </div>
+
+  <h2>快速上手</h2>
+  <ul>
+    <li><strong>新建评估</strong>：填写称呼与会员编号 → 依次拍摄或上传正面／左侧／右侧 → 开始分析 → 复核关键点 → 查看结果与导出报告。</li>
+    <li><strong>复测对比</strong>：同一会员的两份已发布报告可比较七项指标变化。</li>
+    <li><strong>演示</strong>：演示入口展示合成数据，不会写入真实评估库。</li>
+  </ul>
+
+  <h2>常见问题</h2>
+  <ul>
+    <li><strong>相机打不开？</strong>请在 iOS 设置 → PoseMaster 中允许相机权限。</li>
+    <li><strong>识别不准？</strong>可在关键点复核页手动调整；请保证全身入镜、光线充足、姿势标准。</li>
+    <li><strong>数据在哪里？</strong>全部保存在本机。卸载 App 会删除本机档案；请事先导出 PDF／JSON／CSV 如需备份。</li>
+    <li><strong>这是医疗 App 吗？</strong>不是。本工具供健身／运动指导参考，不提供医学诊断。</li>
+  </ul>
+
+  <h2>相关链接</h2>
+  <ul>
+    <li><a href="./">隐私政策</a></li>
+    <li>联系邮箱：<a href="mailto:cswanghan@gmail.com">cswanghan@gmail.com</a></li>
+  </ul>
+
+  <footer>
+    PoseMaster · com.cswanghan.posturestudio
+  </footer>
+</div>
+</body>
+</html>

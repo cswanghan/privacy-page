@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PoseMaster · 隐私政策</title>
+<style>
+  :root {
+    --accent: #3B82F6;
+    --bg: #0b1018; --card: #141a24; --line: #232a36;
+    --text: #F2F2F4; --sub: #8A8A8E; --muted: #6B6B70;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.7 -apple-system, "Helvetica Neue", "PingFang SC", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 24px; margin-bottom: 8px; }
+  .brand { color: var(--accent); font-weight: 800; letter-spacing: .04em; font-size: 15px; }
+  h1 { font-size: 28px; margin: 10px 0 6px; letter-spacing: .01em; }
+  .meta { color: var(--muted); font-size: 13px; }
+  h2 {
+    font-size: 19px; margin: 40px 0 12px; padding-top: 4px;
+    display: flex; align-items: baseline; gap: 10px;
+  }
+  h2::before {
+    content: ""; width: 4px; height: 18px; border-radius: 2px;
+    background: var(--accent); display: inline-block; flex: none;
+    transform: translateY(2px);
+  }
+  p, li { color: var(--text); }
+  .lead { color: var(--sub); }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  strong { color: #fff; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; padding: 18px 20px; margin: 16px 0;
+  }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">PoseMaster · 三维体态评估</div>
+    <h1>隐私政策</h1>
+    <div class="meta">最后更新：2026 年 10 月 28 日 · 适用于 iPhone / iPad 版本</div>
+  </header>
+
+  <div class="card">
+    <p style="margin:0"><strong>一句话：PoseMaster 是本机工作台，不向我们的服务器上传照片、档案或评估结果。</strong>没有账号系统、没有云同步、不做广告、不做追踪、不接第三方统计 SDK。</p>
+  </div>
+
+  <h2>我们不收集的数据</h2>
+  <p class="lead">使用 PoseMaster 时，我们<strong>不会</strong>把下列内容发送到我们的服务器或任何第三方：</p>
+  <ul>
+    <li>体态照片（相机拍摄或从相册选择）</li>
+    <li>会员称呼、编号、教练备注与评估档案</li>
+    <li>关键点坐标、七项测量结果、PDF / JSON / CSV 报告</li>
+    <li>设备标识、广告标识、位置、通讯录或诊断日志</li>
+  </ul>
+
+  <h2>本机处理与存储</h2>
+  <ul>
+    <li><strong>照片与识别</strong>：相机与相册仅在你主动授权后使用。关键点识别在设备本地运行（MediaPipe Pose Landmarker），照片不上传。</li>
+    <li><strong>档案与报告</strong>：草稿与已发布报告保存在本机数据库；卸载 App 即删除本机数据（除非你另行导出或保存到相册／文件）。</li>
+    <li><strong>可选导出</strong>：仅在你主动操作时，可将 PDF／JSON／CSV 分享或保存到你选择的位置；照片写入相册也需你主动确认。</li>
+  </ul>
+
+  <h2>权限说明</h2>
+  <ul>
+    <li><strong>相机</strong>：拍摄正面、左侧、右侧体态照片，仅保存在本机。</li>
+    <li><strong>相册读取</strong>：选择已有体态照片进行分析，仅保存在本机。</li>
+    <li><strong>相册写入</strong>：仅在你主动保存时写入相册。</li>
+  </ul>
+
+  <h2>追踪与第三方</h2>
+  <p class="lead">PoseMaster 不使用 App Tracking Transparency 所定义的追踪，不集成广告或分析 SDK。随包 <code>PrivacyInfo.xcprivacy</code> 声明：不追踪、不收集数据类别。</p>
+
+  <h2>儿童与医疗声明</h2>
+  <p class="lead">本 App 面向成人健身／运动指导机构的教练工作台，不是医疗器械，不提供诊断或治疗建议。请勿将评估结果作为医学结论。</p>
+
+  <h2>联系我们</h2>
+  <p class="lead">隐私相关问题请邮件：<a href="mailto:cswanghan@gmail.com">cswanghan@gmail.com</a>。通常 48 小时内回复。</p>
+
+  <h2>政策更新</h2>
+  <p class="lead">若本政策有实质性变更，我们会更新本页「最后更新」日期。继续使用即表示你知悉更新后的说明。</p>
+
+  <footer>
+    PoseMaster · Bundle ID com.cswanghan.posturestudio<br>
+    开发者联系：<a href="mailto:cswanghan@gmail.com">cswanghan@gmail.com</a> ·
+    <a href="./support.html">支持页</a>
+  </footer>
+</div>
+</body>
+</html>
